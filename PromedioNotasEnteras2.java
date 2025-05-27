@@ -1,4 +1,4 @@
-import java.util.Scanner; // Necesitamos esta clase para leer la entrada del usuario
+import java.util.Scanner;
 
 public class PromedioNotasEnteras {
 
