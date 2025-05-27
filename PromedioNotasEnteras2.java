@@ -37,13 +37,13 @@ public class PromedioNotasEnteras {
         promedio = (nota1 + nota2 + nota3) / 3;
 
         
-        System.out.println("\n--- Resultado ---");
-        System.out.println("Tu promedio final es: " + promedio);
+        
+        System.out.println("Tu promedio es: " + promedio);
 
         if (promedio >= 4) {
             System.out.println("¡Felicitaciones! Has APROBADO la asignatura.");
         } else {
-            System.out.println("Lo siento, has REPROBADO la asignatura.");
+            System.out.println("Lo sentimos, has REPROBADO la asignatura.");
         }
 
         
