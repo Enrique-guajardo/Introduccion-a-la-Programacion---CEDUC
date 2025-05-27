@@ -9,22 +9,22 @@ public class PromedioNotasEnteras {
         int promedio;
 
         
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
         
         System.out.println("--- Calculador de Promedio de Notas ---");
 
         // Nota 1
         System.out.print("Ingresa la primera nota (entre 1 y 7): ");
-        notaTexto1 = scanner.nextLine();
+        notaTexto1 = sc.nextLine();
 
         // Nota 2
         System.out.print("Ingresa la segunda nota (entre 1 y 7): ");
-        notaTexto2 = scanner.nextLine(); 
+        notaTexto2 = sc.nextLine(); 
 
         // Nota 3
         System.out.print("Ingresa la tercera nota (entre 1 y 7): ");
-        notaTexto3 = scanner.nextLine(); 
+        notaTexto3 = sc.nextLine(); 
 
         
         
@@ -47,6 +47,6 @@ public class PromedioNotasEnteras {
         }
 
         
-        scanner.close();
+        sc.close();
     }
 }
