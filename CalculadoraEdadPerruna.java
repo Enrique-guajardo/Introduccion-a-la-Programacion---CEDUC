@@ -20,7 +20,7 @@ public class CalculadoraEdadPerro {
 
         System.out.println("¡Qué interesante! Si tu perro tiene " + edadHumanaPerro + " años humanos,");
         System.out.println("eso equivale a " + edadPerroPerrunos + " años perrunos.");
-        System.out.println("¡Espero que tú y tu amigo peludo disfruten mucho tiempo juntos!");
+        
 
 
         sc.close();
