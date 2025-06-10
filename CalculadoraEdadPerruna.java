@@ -23,6 +23,6 @@ public class CalculadoraEdadPerro {
         System.out.println("¡Espero que tú y tu amigo peludo disfruten mucho tiempo juntos!");
 
 
-        scanner.close();
+        sc.close();
     }
 }
